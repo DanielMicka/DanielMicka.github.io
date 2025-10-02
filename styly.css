@@ -17,6 +17,9 @@ body {
     gap: 50px;
 }
 .box {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
     background-color: lightgray;
   border-radius: 15px;
   box-shadow: 5px 5px 10px black;
@@ -37,7 +40,7 @@ body {
     box-shadow: 10px 10px 5px rgb(75, 75, 75);
     border-radius: 25px;
     margin: 50px auto;
-    padding: 5px 5px;
+    padding: 15px 5px;
     max-width: 400px;
     text-align: center;
 }
@@ -46,7 +49,7 @@ body {
     box-shadow: 10px 10px 5px rgb(75, 75, 75);
     border-radius: 25px;
     margin: 20px auto;
-    padding: 5px 5px;
+    padding: 15px 15px;
     max-width: 200px;
     text-align: center;
 }
@@ -57,7 +60,16 @@ img {
     display: block;
     margin: 0 auto;
     box-shadow: 10px 10px 5px rgb(75, 75, 75);
-    justify-content: center;
+}
+ul {
+    padding-left: 20px;
+    text-align: center;
+}
+li {
+    margin: 10px 0;
+    list-style: none;
+    flex-direction: column;
+    text-align: left;
 }
 
 .odkaz {
@@ -79,4 +91,48 @@ img {
     border-radius: 10px;
     margin-top: 30px;
     max-width: 150px;
+}
+#navbar {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+#navbar a {
+    color: white;
+    text-decoration: none;
+}
+#navbar ul li {
+    display: inline-flex;
+    list-style: none;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+#navbar ul a {
+    padding: 10px;
+    margin: 0 4px;
+}
+
+#navbar  a:hover {
+    color: #93cb52;
+}
+.text-primary{
+    color: #93cb52;
+    font-weight: bold;
+}
+.dalsi_stranka{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: background 0.3s;
+    transition-duration: 0.5s;
+}
+.dalsi_stranka:hover{
+    color: rgb(0, 83, 160);
 }
