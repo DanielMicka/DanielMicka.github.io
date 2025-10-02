@@ -57,6 +57,7 @@ img {
     display: block;
     margin: 0 auto;
     box-shadow: 10px 10px 5px rgb(75, 75, 75);
+    justify-content: center;
 }
 
 .odkaz {
