@@ -1,53 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="styly.css">
 
 <head>
+    <link rel="stylesheet" href="styly.css">
     <title>DanielMicka</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <nav id="navbar">
-        <div class="logo">
-            Daniel <span class="text-primary">Mička</span><i class="fa-solid fa-user fa-xl" style="color: #93cb52;"></i>
-        </div>
-        <ul>
-            <li><a href="index.html">Úvod</a></li>
-            <li><a href="sporty.html">Sporty</a></li>
-            <li><a href="konicky.html">Koníčky</a></li>
-        </ul>
-    </nav>
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
 </head>
 
 <body>
-    <div class="popis">tohle je webovka kde se můžete dozvědět něco víc o mně, Danielu Mičkovi
-    </div>
-    <div class="podnadpis">
-        <div class="sloupec">
-            <div class="box">
-                <h2>Kdo jsem?</h2>
+    <header>
+        <nav id="navbar">
+            <div class="logo">
+                Daniel <span class="text-primary">Mička</span><i class="fa-solid fa-user fa-xl"
+                    style="color: #93cb52;"></i>
             </div>
-            <div class="text">jsem student <a class="odkaz" href="https://oa-opava.cz">obchodní akademie </a>, rád
-                sportuji,
-                učím se novým
-                věcem, baví mě
-                logické přemýšlení a řešení problémů
-            </div>
+            <ul>
+                <li><a href="index.html">Úvod</a></li>
+                <li><a href="sporty.html">Sporty</a></li>
+                <li><a href="konicky.html">Koníčky</a></li>
+            </ul>
+        </nav>
+        <h1>tohle je webovka kde se můžete dozvědět něco víc o mně, Danielu Mičkovi</h1>
+    </header>
+    <main>
+        <div class="podnadpis">
+            <h2>Kdo jsem?</h2>
+        </div>
+        <div class="text">jsem student <a class="odkaz" href="https://oa-opava.cz">obchodní akademie </a>, rád
+            sportuji,
+            učím se novým
+            věcem, baví mě
+            logické přemýšlení a řešení problémů
         </div>
         <div class="sloupec">
-            <div class="box"><i class="fa-solid fa-medal fa-xl"></i>
-                <a class="dalsi_stranka" href="sporty.html">Co dělám za sporty?</a>
-            </div>
+            <a href="sporty.html" class="odkaz">
+                <div class="box dalsi_stranka">
+                    <i class="fa-solid fa-medal fa-xl ikony"></i>
+                    <div id="sport" class="odkaz">Co dělám za sporty?</div>
+                </div>
+            </a>
+            <a href="konicky.html" class="odkaz">
+                <div class="box dalsi_stranka">
+                    <i class="fa-solid fa-chess ikony"></i>
+                    <div id="koníčky" class="odkaz">Mé koníčky</div>
+                </div>
+            </a>
+        </div>
+        <div class="obrazky">
+            <img src="https://www.publicdomainpictures.net/pictures/300000/velka/couple-dancing-silhouette.jpg"
+                alt="tanec">
+            <img src="https://www.publicdomainpictures.net/pictures/80000/velka/xadrez.jpg" alt="šachy">
+        </div>
+    </main>
+    <footer>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+                alt="Ověřit CSS!">
+        </a>
 
-        </div>
-        <div class="sloupec">
-            <div class="box"><i class="fa-solid fa-chess"></i>
-                <a class="dalsi_stranka" href="konicky.html">Mé koníčky</a>
-    </div>
-    <div class="obrazky">
-        <img src="https://www.publicdomainpictures.net/pictures/300000/velka/couple-dancing-silhouette.jpg" alt="tanec">
-        <img src="https://www.publicdomainpictures.net/pictures/80000/velka/xadrez.jpg" alt="šachy">
-    </div>
+    </footer>
+
 </body>
+
 
 </html>
