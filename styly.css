@@ -9,29 +9,27 @@ h1 {
     font-size: 2rem;
 }
 .podnadpis h2 {
-    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    font-size: 2rem;
     border-radius: 25px;
     margin: 15px auto;
     padding: 10px 15px;
-    max-height: 150px;
     background-color: lightseagreen;
     box-shadow: 10px 5px 2.5px rgb(75, 75, 75);
 }
-
 body {
     background-color: rgb(248, 188, 188);
 }
-.podnadpis{
-    display: flex;
-    justify-content: center;
-    margin: 20px auto;
-    gap: 50px;
-}
 .box {
+
     display: flex;
     justify-content: center;
     flex-direction: row;
     background-color: lightgray;
+    align-content: center;
   border-radius: 15px;
   box-shadow: 5px 5px 10px black;
   font-size: 1rem;
@@ -44,12 +42,13 @@ body {
     color: rgb(0, 83, 160);
     transition: all 0.3s ease-in-out;
 }
-.sloupec {
+.ostatni {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    max-width: 250px;
+    max-width: auto 250px;
+
 }
 
 .popis {
@@ -67,8 +66,9 @@ body {
     border-radius: 25px;
     margin: 20px auto;
     padding: 15px 15px;
-    max-width: 200px;
+    max-width: 500px;
     text-align: center;
+    font-size: 1rem;
 }
 
 img {
