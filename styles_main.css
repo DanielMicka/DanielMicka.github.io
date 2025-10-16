@@ -3,6 +3,7 @@ body {
 }
 h1 {
     background-color: lightgray;
+    display: block;
     box-shadow: 10px 10px 5px rgb(75, 75, 75);
     border-radius: 25px;
     margin: 30px auto;
@@ -10,4 +11,37 @@ h1 {
     max-width: 400px;
     text-align: center;
     font-size: 2rem;
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: lightblue;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10;
+}
+.nav-list{
+    display: flex;
+    margin-right: 2rem;
+    list-style: none;
+}
+.nav-list a{
+    text-decoration: none;
+    margin-right: 1.2rem;
+    color: black;
+    font-size: 1.2rem;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+a:hover {
+    background-color: salmon;
+    animation: fade-in 0.5s ease-in-out;
 }
