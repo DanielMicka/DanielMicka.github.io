@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(13, 45, 73);
+}
+h1 {
+    background-color: lightgray;
+    box-shadow: 10px 10px 5px rgb(75, 75, 75);
+    border-radius: 25px;
+    margin: 30px auto;
+    padding: 5px 5px;
+    max-width: 400px;
+    text-align: center;
+    font-size: 2rem;
+}
