@@ -1,16 +1,19 @@
 body {
     background-color: rgb(13, 45, 73);
+    margin: 0;
+    padding: 0;
 }
 h1 {
+    display: flex;
+    margin-block-start: 2.67em;
+    margin-block-end: 2.67em;
     background-color: lightgray;
-    display: block;
-    box-shadow: 10px 10px 5px rgb(75, 75, 75);
-    border-radius: 25px;
-    margin: 30px auto;
-    padding: 5px 5px;
-    max-width: 400px;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    font-size: 2rem;
+    margin: 150px;
+    font-size: 1.2rem;
+    border-radius: 15px;
 }
 .nav{
     display: flex;
@@ -22,6 +25,7 @@ h1 {
     background: lightblue;
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
     z-index: 10;
+    border-radius: 3px;
 }
 .nav-list{
     display: flex;
@@ -35,13 +39,28 @@ h1 {
     font-size: 1.2rem;
 }
 .home{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
+  width: 100vw;
+  background-color: rgb(5, 102, 102);
+  margin: 0;
+  padding: 20px 60px;
+  box-sizing: inherit;
 }
 a:hover {
     background-color: salmon;
     animation: fade-in 0.5s ease-in-out;
+}
+.projects {
+    margin: 0;
+    width : 100vw;
+    padding: 20px 60px;
+    background-color: lightgray;
+}
+section {
+    border-radius: 15px;
+    margin: 3px 0;
+}
+section h1, section h2 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
